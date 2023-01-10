@@ -12,16 +12,18 @@
 }
 
 .main {
-    display: flex;
+    display: grid;
     justify-content: center;
+    align-content: center;
     align-items: center;
-    position: absolute;
+    position: absolute; 
+    text-align: center;
+    gap: 30px;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(black, black), url('./img/bg.jpg');
-    /* background-image: url('./bg.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,8 +35,16 @@
 .main h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 56px;
+    font-size: 64px;
     color: white;
+}
+
+.main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    max-width: 500px;
 }
 
 .overlay {
