@@ -20,7 +20,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(black, black), url('./bg.jpg');
+    background-image: linear-gradient(black, black), url('./img/bg.jpg');
+    /* background-image: url('./bg.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,7 +42,7 @@
     height: 100%;
     z-index: 2;
     position: relative;
-    background-image: url('./bg.jpg');
+    background-image: url('./img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
